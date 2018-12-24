@@ -24,8 +24,8 @@ pwm.start(5)
 #Function to check keypad input!
 def check_keypad(length):
 
-    COL = [7,11,13,15]
-    ROW = [12,16,18,22]
+    COL = [4,17,22,21]
+    ROW = [18,23,24,25]
 
     MATRIX = [["1","2","3","A"],
               ["4","5","6","B"],
